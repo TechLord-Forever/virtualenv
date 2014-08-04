@@ -2,7 +2,7 @@
 """Create a "virtual" Python installation
 """
 
-__version__ = "1.12.dev1"
+__version__ = "1.12.ipy"
 virtualenv_version = __version__  # legacy
 
 import base64

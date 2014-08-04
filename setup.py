@@ -80,7 +80,7 @@ except ImportError:
     pass
 
 setup(
-    name='virtualenv',
+    name='virtualenv-ironpython',
     version=get_version(),
     description="Virtual Python Environment builder",
     long_description=long_description,
@@ -89,14 +89,9 @@ setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2',
-        'Programming Language :: Python :: 2.5',
-        'Programming Language :: Python :: 2.6',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.1',
-        'Programming Language :: Python :: 3.2',
     ],
-    keywords='setuptools deployment installation distutils',
+    keywords='setuptools deployment installation distutils ironpython',
     author='Ian Bicking',
     author_email='ianb@colorstudy.com',
     maintainer='Jannis Leidel, Carl Meyer and Brian Rosner',
